@@ -2,7 +2,7 @@
 
 body {
 	background: #b5aaab;
-	color: #393e41;
+	color: #6a5e62;
 	font-family: 'Roboto', sans-serif;
 	outline: none;
 }
@@ -13,10 +13,12 @@ body {
 	background: #f0e6e4;
 	text-align: center;
 	text-transform: uppercase;
+	color: #6a5e62;
 }
 
 .jumbotron h1 {
 	line-height: 0.7;
+	color: #6a5e62;
 }
 
 .color-box {
@@ -51,10 +53,6 @@ body {
     outline: none;
 }
 
-button {
-	outline: none;
-}
-
 .btn-default{
 	border-radius: 20px;
 	background-color: #f0e6e4;
@@ -76,12 +74,6 @@ button {
 	outline: none;
 }
 
-.inactive-btn {
-	background-color: transparent;
-	border-color: #f0e6e4;
-	color: #f0e6e4;
-}
-
 .navbar {
 	background: transparent;
 	border: none;
@@ -90,7 +82,8 @@ button {
 }
 
 .navbar-default .navbar-nav>li>button {
-	color: #393e41;
+	color: #6a5e62;
+	background-color: #f0e6e4;
 	text-transform: uppercase;
 	padding-top:5px !important; 
 	padding-bottom:5px !important;
@@ -109,4 +102,10 @@ button {
 .message {
 	display: inline-block;
 	width: 20%;
+}
+
+.navbar-default .navbar-nav .inactive-btn {
+	background-color: #b5aaab;
+	border-color: #f0e6e4;
+	color: #f0e6e4;
 }
