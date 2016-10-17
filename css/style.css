@@ -1,0 +1,108 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+	background: #b5aaab;
+	color: #393e41;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+
+.jumbotron {
+	padding: 10px 5px;
+	margin-top: -25px;
+	background: #f0e6e4;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.jumbotron h1 {
+	line-height: 0.7;
+}
+
+.color-box {
+	padding: 50%;
+	border-radius: 15%;
+	border: 1px solid #b5aaab;
+	background: rgb(150,50,199);
+	margin-bottom: 20px;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	outline: none;
+}
+
+.selected {
+	padding: 50%;
+	background: #b5aaab;
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+    outline: none;
+}
+
+button {
+	outline: none;
+}
+
+.btn-default{
+	border-radius: 20px;
+	background-color: #f0e6e4;
+	transition: all 2.0s;
+	-webkit-transition: all 2.0s;
+	-moz-transition: all 2.0s;
+	outline: none;
+}
+
+.btn-default:active{
+	outline: none;
+}
+
+.btn-default:hover{
+	outline: none;
+}
+
+.inactive-btn {
+	background-color: transparent;
+	border-color: #f0e6e4;
+	color: #f0e6e4;
+}
+
+.navbar {
+	background: transparent;
+	border: none;
+	margin-top: -20px;
+	outline: none;
+}
+
+.navbar-default .navbar-nav>li>button {
+	color: #393e41;
+	text-transform: uppercase;
+	padding-top:5px !important; 
+	padding-bottom:5px !important;
+	outline: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a {
+	border-radius: 20px;
+	outline: none;
+}
+
+.hard-level {
+	display: none;
+}
+
+.message {
+	display: inline-block;
+	width: 20%;
+}
