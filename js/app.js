@@ -106,6 +106,8 @@ easy.addEventListener("click", function(){
 			hard.classList.add("inactive-btn");
 			easy.classList.remove("inactive-btn");
 			hardRow.classList.add("hard-level");
+		} else {
+			reset(numColors);
 		}
 });
 
@@ -116,5 +118,7 @@ hard.addEventListener("click", function(){
 			easy.classList.add("inactive-btn");
 			hard.classList.remove("inactive-btn");
 			hardRow.classList.remove("hard-level");
+		} else {
+			reset(numColors);
 		}
 });
