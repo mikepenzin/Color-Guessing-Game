@@ -57,9 +57,9 @@ body {
 .btn-default{
 	border-radius: 20px;
 	background-color: #f0e6e4;
-	transition: all 2.0s;
-	-webkit-transition: all 2.0s;
-	-moz-transition: all 2.0s;
+	transition: all 0.7s;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
 	outline: none;
 }
 
