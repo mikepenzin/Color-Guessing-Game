@@ -51,7 +51,7 @@ body {
 .navbar-nav > li {
     float: none;
     display: inline-block;
-    outline: none;
+    outline: none !important;
 }
 
 .btn-default{
@@ -79,7 +79,7 @@ body {
 	background: transparent;
 	border: none;
 	margin-top: -20px;
-	outline: none;
+	outline: none !important;
 }
 
 .navbar-default .navbar-nav>li>button {
@@ -121,7 +121,7 @@ body {
 
 .min-footer-inverse {
 	text-align: center;
-	color: #6a5e62;
+	color: #393e41;
 	padding-top: 15px;
 
 }
