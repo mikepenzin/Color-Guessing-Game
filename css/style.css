@@ -5,6 +5,7 @@ body {
 	color: #6a5e62;
 	font-family: 'Roboto', sans-serif;
 	outline: none;
+	padding-bottom: 50px;
 }
 
 .jumbotron {
@@ -112,14 +113,17 @@ body {
 
 .min-footer {
 	text-align: center;
-	color: #f0e6e4;
+	color: #6a5e62;
 	padding: 15px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #f0e6e4;
 }
 
 .min-footer-inverse {
 	text-align: center;
-	color: #b5aaab;
+	color: #6a5e62;
 	padding-top: 15px;
+
 }
 
 .love {

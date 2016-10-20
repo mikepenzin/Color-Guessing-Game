@@ -88,7 +88,7 @@ function reset(num) {
 	tryAgain.textContent = " ";
 	newGame.textContent = "New Colors";
 	jumbotronBG.style.background = "#f0e6e4";
-	footer.style.color = "#f0e6e4";
+	footer.style.color = "#b5aaab";
 	document.body.style.background = "#b5aaab";
 	pickedColor = pickColor();
 	colorName.textContent = pickedColor;
