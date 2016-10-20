@@ -109,3 +109,19 @@ body {
 	border-color: #f0e6e4;
 	color: #f0e6e4;
 }
+
+.min-footer {
+	text-align: center;
+	color: #f0e6e4;
+	padding: 15px;
+}
+
+.min-footer-inverse {
+	text-align: center;
+	color: #b5aaab;
+	padding-top: 15px;
+}
+
+.love {
+	color: #be0000;
+}

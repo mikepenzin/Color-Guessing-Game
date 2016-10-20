@@ -8,6 +8,7 @@ var hardRow = document.getElementById("hard-row");
 var tryAgain = document.getElementById("tryAgain");
 var colorName = document.getElementById("colorName");
 var newGame = document.getElementById("newGame");
+var footer = document.getElementById("footer");
 var pickedColor = pickColor();
 
 colorName.textContent = pickedColor;
@@ -47,7 +48,8 @@ newGame.addEventListener("click", function(){
 function changeOnWin(color){
 
 	tryAgain.textContent = "Correct!";
-	newGame.textContent = "Play Again";
+	newGame.textContent = "Play Again?";
+	footer.style.color = "#6a5e62";
 	jumbotronBG.style.background = color;
 
 	document.body.style.background = "#f0e6e4";
@@ -86,6 +88,7 @@ function reset(num) {
 	tryAgain.textContent = " ";
 	newGame.textContent = "New Colors";
 	jumbotronBG.style.background = "#f0e6e4";
+	footer.style.color = "#f0e6e4";
 	document.body.style.background = "#b5aaab";
 	pickedColor = pickColor();
 	colorName.textContent = pickedColor;
@@ -104,7 +107,7 @@ easy.addEventListener("click", function(){
 			easy.classList.remove("inactive-btn");
 			hardRow.classList.add("hard-level");
 		}
-	});
+});
 
 hard.addEventListener("click", function(){
 		if (numColors == 3) {
@@ -114,4 +117,4 @@ hard.addEventListener("click", function(){
 			hard.classList.remove("inactive-btn");
 			hardRow.classList.remove("hard-level");
 		}
-	});
+});
